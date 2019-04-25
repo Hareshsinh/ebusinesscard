@@ -9,13 +9,13 @@ The Laravel Word Refiner package helps you to refine any words from your collect
 You can install the package via composer:
 
 ```bash
-composer require viitorcloud/laravel-word-refiner
+composer require vcian/ebusinesscard
 ```
 
 After installation, You need to publish the config file for this package. This will add the file config/refiner.php, where you can add extra word which you want to deprecate from your collection data.
 
 ```bash
-php artisan vendor:publish --provider="WordRefiner\WordRefinerProvider"
+php artisan vendor:publish --provider="vcian/ebusinesscard"
 ```
 
 ### Usage
@@ -34,7 +34,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security-related issues, please email vishal@viitorcloud.com or ruchit.patel@viitor.cloud instead of using the issue tracker.
+If you discover any security-related issues, please email  sisodiyaharesh@gmail.com instead of using the issue tracker.
 
 ## Credits
 
