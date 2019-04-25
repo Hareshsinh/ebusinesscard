@@ -1,6 +1,6 @@
-# Word refiner for laravel collection data
+# E Business Card for laravel collection data
 
-The Laravel Word Refiner package helps you to refine any words from your collection data.
+
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
@@ -12,7 +12,7 @@ You can install the package via composer:
 composer require vcian/ebusinesscard
 ```
 
-After installation, You need to publish the config file for this package. This will add the file config/refiner.php, where you can add extra word which you want to deprecate from your collection data.
+After installation, You need to publish the config file for this package. This will add the file  where you can add extra word which you want to deprecate from your collection data.
 
 ```bash
 php artisan vendor:publish --provider="vcian/ebusinesscard"
