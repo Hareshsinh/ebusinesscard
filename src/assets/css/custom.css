@@ -1,0 +1,255 @@
+#field {
+    margin-left: .5em;
+    float: left
+}
+
+#field, label {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small
+}
+
+br {
+    clear: both
+}
+
+input {
+    border: 1px solid #000;
+    margin-bottom: .5em
+}
+
+input.error {
+    border: 1px solid red
+}
+
+label.error {
+    background: url('../social/unchecked.gif') no-repeat;
+    padding-left: 16px;
+    margin-left: .3em
+}
+
+label.valid {
+    background: url('../social/checked.gif') no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    transition: .3s;
+    margin-left: 0;
+    position: relative;
+    overflow: hidden;
+    color: #fff
+}
+
+.location {
+    color: #fff
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: block
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2)
+}
+
+.container {
+    padding: 2px 16px
+}
+
+/*body{padding-top:30px}*/
+.glyphicon {
+    margin-bottom: 10px;
+    margin-right: 10px
+}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999
+}
+
+body {
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 19.5px
+}
+
+.mobile-social-share h3 {
+    color: inherit;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 25px 25px 0 25px
+}
+
+.btn-group {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+.mobile-social-share ul {
+    float: right;
+    list-style: none outside none;
+    margin: 0;
+    min-width: 61px;
+    padding: 0
+}
+
+.mobile-social-share li {
+    display: block;
+    font-size: 18px;
+    list-style: none outside none;
+    margin-bottom: 3px;
+    margin-left: 4px;
+    margin-top: 3px
+}
+
+.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    width: 0
+}
+
+#socialShare > a {
+    padding: 6px 10px 6px 10px
+}
+
+@media (max-width: 320px) {
+    .mobile-social-share h3 {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .mobile-social-share h3 {
+        font-size: 15px
+    }
+}
+.website {
+    color: white;
+}
+@media (max-width: 238px) {
+    .mobile-social-share h3 {
+        font-size: 12px
+    }
+}
+
+.dropdown-menu {
+    min-width: 0
+}
+
+.leave-top-space {
+    padding-top: 15px
+}
+
+.person-photo {
+    width: 138px;
+    height: 138px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: table;
+    position: relative;
+    border: 5px solid #fff;
+}
+
+.right-card {
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-img {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.well-card h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.well-sm {
+    min-height: 265px;
+}
+
+.card {
+    min-height: 255px;
+}
+
+.btn-group .dropdown-menu {
+    height: 170px;
+    overflow: auto;
+}
+
+.img-thumbnail {
+    border: none;
+    border-radius: 0;
+    background: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding: 0;
+}
+
+.top-bg {
+    background: #e6e6e6;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+.top-bg h2 {
+    margin: 0;
+}
+
+.add-new {
+    float: right;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group .error.valid {
+    position: absolute;
+    right: 8px;
+    top: 29%;
+}
+
+.form-group label.error {
+    position: absolute;
+    bottom: -20px;
+    font-weight: normal;
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .person-photo {
+        width: 100%;
+        height: auto;
+    }
+    .right-card {
+        width: 100%;
+    }
+    .img-thumbnail {
+        position: relative;
+    }
+}

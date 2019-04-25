@@ -1,0 +1,26 @@
+{
+    "name": "vcian/ebusinesscard",
+    "description": "Generate electronic business card",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hareshsinh",
+            "email": "haresh.sisodiya@viitorcloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5",
+        "barryvdh/laravel-dompdf": "v0.8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vcian\\EbusinessCard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vcian\\EbusinessCard\\": "packages/vcian/ebusinesscard/src"
+        }
+    }
+}
